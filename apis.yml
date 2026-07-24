@@ -1,7 +1,14 @@
 aid: clap
 name: CLAP
-description: CLAP is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CLAP (주식회사 디웨일 / Dwhale Inc.) is a South Korean SaaS company offering an
+  AI-powered, customizable performance management platform for enterprises. It covers
+  the full performance lifecycle — multi-rater evaluations and calibration, OKR-style
+  goal setting and alignment, continuous feedback and 1-on-1 meetings, and CLAP AI
+  for diagnostics, feedback drafting, and automation — with tailored reporting and
+  tool integrations. CLAP serves 1,000+ companies and claims to cut the HR time spent
+  on performance management by up to 80%. The company is headquartered in Gangnam,
+  Seoul, and is a portfolio company of 500 Global. CLAP publishes no public API or
+  developer portal; this profile captures its identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/clap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/67bbfe0ae068394547052297/6a34d2be7f19ea8c03d1bd30_Screenshot%202026-06-19%20at%202.25.01%E2%80%AFPM.png
 tags:
 - Company
+- Human Resources
+- Performance Management
+- SaaS
+- OKR
+- Employee Feedback
+- Artificial Intelligence
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clap-domain-security.yml
 - type: Website
   url: https://welcome.clap.company
+- type: Blog
+  url: https://blog.clap.company
+- type: Pricing
+  url: https://welcome.clap.company/pricing
+- type: Login
+  url: https://www.clap.company/login
+- type: TermsOfService
+  url: https://welcome.clap.company/agreement
+- type: PrivacyPolicy
+  url: https://welcome.clap.company/privacy
+- type: Support
+  url: https://clapguide.oopy.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
