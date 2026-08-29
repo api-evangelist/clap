@@ -10,6 +10,9 @@ description: CLAP (주식회사 디웨일 / Dwhale Inc.) is a South Korean SaaS 
   Seoul, and is a portfolio company of 500 Global. CLAP publishes no public API or
   developer portal; this profile captures its identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/clap/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "CLAP publishes no public API or developer portal; this profile captures its identity and web properties."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
