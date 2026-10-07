@@ -70,6 +70,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/clap-plans-pricing.yml
 - url: https://blog.clap.company/rss/
   type: BlogRSS
 - type: DomainSecurity
