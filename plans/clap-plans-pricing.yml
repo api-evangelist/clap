@@ -44,3 +44,41 @@ plans:
   price_text: 도입 문의
   period: none
   included_quota: 통합 플랜의 모든 기능 + 맞춤형 프로세스, SSO, 전담 고객 성공팀
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  units:
+  - seat
+  plans:
+  - name: 연간 플랜
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: 월간 플랜
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: 진단 플랜
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: 엔터프라이즈 플랜
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
